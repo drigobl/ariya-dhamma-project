@@ -1,0 +1,25 @@
+name: validate-build-deploy
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pyyaml mkdocs-material
+      - run: python scripts/validate.py
+      - run: python scripts/build.py
+      - run: |
+          echo "# Suttas — Punnaji-Style Translations" > site/docs/index.md
+          cd site && mkdocs build --strict
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site/site

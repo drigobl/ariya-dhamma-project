@@ -1,0 +1,70 @@
+# Single source of truth for term renderings.
+# status: settled | documented | reconstruction | to-verify
+# "documented" = attested in Punnaji's published/recorded work (add citation).
+# validate.py enforces: settled terms rendered consistently; to-verify terms never in final text.
+
+terms:
+  - pali: arahant
+    en: the Worthy One
+    es: el Digno
+    conventional_en: arahant / perfected one
+    status: settled
+    first_used: iti001
+    rationale: Epithet rendered by meaning (araha = worthy), capitalized.
+
+  - pali: pajahatha
+    en: let go of
+    es: suelten
+    conventional_en: abandon
+    status: settled
+    first_used: iti001
+    rationale: Imperative addressed to the monks; ustedes form in Spanish.
+
+  - pali: anāgāmitā
+    en: state of non-returning
+    es: estado de No-retorno
+    conventional_en: non-returning
+    status: settled
+    first_used: iti001
+
+  - pali: vipassino
+    en: those who see clearly
+    es: los que ven con claridad
+    conventional_en: those with insight
+    status: settled
+    first_used: iti001
+
+  - pali: duggati
+    en: a state of misery
+    es: un estado de desdicha
+    conventional_en: bad destination / lower realm
+    status: settled
+    first_used: iti001
+    rationale: Keeps the psychological reading open without erasing the cosmological one.
+
+  - pali: moha
+    en: delusion
+    es: ofuscación
+    conventional_en: delusion / ignorance
+    status: settled
+    first_used: iti003
+    rationale: Root √muh = clouding; Spanish must avoid ilusión/ignorancia.
+
+  - pali: nibbāna
+    en: imperturbable serenity
+    es: serenidad imperturbable
+    conventional_en: extinguishment / nibbana
+    status: documented
+    citation: "Punnaji — verify exact wording in Return to Tranquility"
+
+  - pali: māna
+    en: self-measurement
+    es: autoestimación
+    conventional_en: conceit
+    status: to-verify
+
+  - pali: makkha
+    en: denigration
+    es: menosprecio
+    conventional_en: contempt / ingratitude
+    status: to-verify

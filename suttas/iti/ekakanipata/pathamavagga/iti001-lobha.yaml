@@ -1,0 +1,29 @@
+# Example structure — replace segment text with your completed Lobhasutta translation.
+id: iti001
+name_pali: Lobhasutta
+title_en: Greed
+title_es: La codicia
+collection: Itivuttaka
+nipata: Ekakanipāta
+vagga: Paṭhamavagga
+translator_note: >
+  Translated in the style of Bhante Punnaji. Renderings not attested in his
+  published work are reconstructions and are flagged in the notes.
+
+segments:
+  - id: iti1:1.1
+    pali: "Vuttañhetaṁ bhagavatā vuttamarahatāti me sutaṁ:"
+    en: "This was said by the Blessed One, said by the Worthy One, so I have heard:"
+    es: "Esto fue dicho por el Bienaventurado, dicho por el Digno, así lo he oído:"
+  - id: iti1:1.2
+    pali: "“Ekadhammaṁ, bhikkhave, pajahatha …"
+    en: "“Let go of one thing, monks …"
+    es: "«Suelten una sola cosa, monjes …"
+  # ... continue segment by segment; verse segments keep line breaks with |
+
+terms_used: [arahant, pajahatha, anāgāmitā, vipassino, duggati]
+
+notes_en: >
+  Interpretive notes for this sutta go here.
+notes_es: >
+  Notas interpretativas en español.

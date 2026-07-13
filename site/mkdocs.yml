@@ -1,0 +1,18 @@
+site_name: Suttas — Punnaji-Style Translations
+docs_dir: docs
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: deep orange
+  features:
+    - navigation.sections
+    - search.suggest
+markdown_extensions:
+  - tables
+  - attr_list
+extra_css: []
+nav:
+  - Home: index.md
+  - Glossary: glossary.md
+  # Sutta pages are auto-discovered; pin ordering here as the collection grows.
