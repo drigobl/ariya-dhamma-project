@@ -1,4 +1,4 @@
-# Pali Suttas — Punnaji-Style Trilingual Translations
+# Pali Suttas — Translations
 
 Translations of Pali suttas into English and Spanish following the psychological translation methodology of Bhante Madawela Punnaji, with the Pali kept accessible alongside every rendering. Renderings not attested in Punnaji's published work are reconstructions in his style, and are labeled as such.
 
